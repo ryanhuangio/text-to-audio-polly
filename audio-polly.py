@@ -45,7 +45,7 @@ for chunk in text_chunks:
 combined_audio = b''.join(audio_streams)
 
 # Save the combined MP3 file
-output_file = "output.mp3"
+output_file = "output-polly.mp3"
 
 with open(output_file, "wb") as file:
     file.write(combined_audio)
